@@ -1,10 +1,13 @@
 # GitLab Feedback Collector
 
+![GitLab Feedback Collector](./assets/gitlab-feedback-collector.png)
+
 Backend service that:
 
 - Receives GitLab webhooks
 - On MR approval, posts a discussion requesting quick 1–10 ratings per category
-- Parses replies and stores feedback in SQLite (no raw webhook payloads)
+- Customizable categories
+- Parses replies and stores feedback in SQLite
 
 ## Quick start
 
