@@ -1,0 +1,17 @@
+{
+  "name": "gitlab-feedback-collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/server.ts",
+    "start": "bun run src/server.ts",
+    "test": "bun test",
+    "db:clear": "bun run scripts/clear-db.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.20",
+    "@types/node": "^24.2.1",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
