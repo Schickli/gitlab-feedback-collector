@@ -1,0 +1,13 @@
+# Reduce build context size & keep image small
+node_modules/
+.git
+.github
+.gitignore
+bun.lockbak
+*.log
+*.sqlite
+*.db
+/data/
+/dist/
+/coverage/
+.DS_Store
